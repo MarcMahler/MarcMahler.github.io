@@ -1,0 +1,32 @@
+{
+  "name": "waedivolleywebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "gh-pages -d out"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcMahler/MarcMahler.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcMahler/MarcMahler.github.io/issues"
+  },
+  "homepage": "https://github.com/MarcMahler/MarcMahler.github.io#readme",
+  "dependencies": {
+    "next": "^15.3.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
