@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/MarcMahler/MarcMahler.github.io/issues"
   },
-  "homepage": "https://github.com/MarcMahler/MarcMahler.github.io#readme",
+  "homepage": "https://github.com/MarcMahler/MarcMahler.github.io",
   "dependencies": {
     "next": "^15.3.3",
     "react": "^19.1.0",
