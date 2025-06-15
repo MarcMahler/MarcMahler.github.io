@@ -61,7 +61,7 @@ export default function Home() {
     const handleChange = (e) => {
         const { name, value } = e.target;
 
-        // If changing team, reset timeSlot
+        // If changing team,  reset timeSlot
         if (name === 'team') {
             setFormData(prevState => ({
                 ...prevState,
