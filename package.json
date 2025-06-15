@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next dev",
-    "build": "next build",
     "start": "next start",
-    "deploy": "gh-pages -d out"
+    "build": "next build && copy .nojekyll out\\",
+    "deploy": "gh-pages -d out -t"
   },
   "repository": {
     "type": "git",
