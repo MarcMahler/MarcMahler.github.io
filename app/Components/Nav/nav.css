@@ -11,7 +11,6 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
     position: fixed;
     padding-left: clamp(20px, 2vw, 1500px);
-
 }
 .nav ul {
     list-style-type: none;
@@ -46,4 +45,9 @@
     border-left: 0.1vw solid black;
     height: clamp(20px, 5vw, 50px);
     margin: 0 10px;
+}
+.active-tab {
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(241, 168, 71) !important;
 }

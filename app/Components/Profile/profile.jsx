@@ -1,5 +1,5 @@
 import "./profile.css";
-import Socials from "./socials.jsx";
+import Socials from "../Socials/socials.jsx";
 
 export default function Profile() {
     return (

@@ -1,7 +1,7 @@
 import Head from "next/head";
 import "./page.css";
-import Profile from "./profile.jsx";
-import Nav from "./nav.jsx";
+import Profile from "./Components/Profile/profile.jsx";
+import Nav from "./Components/Nav/nav.jsx";
 
 export default function App() {
   return (
