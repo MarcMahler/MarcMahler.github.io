@@ -1,0 +1,12 @@
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: clamp(10px, 2vw, 20px);
+    margin-bottom: 5%
+}
+.socials-img {
+    border: none;
+    width: clamp(30px, 3vw, 50px);
+    height: clamp(30px, 3vw, 50px);  
+    cursor: pointer;
+}
