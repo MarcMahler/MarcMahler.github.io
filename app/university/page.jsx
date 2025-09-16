@@ -97,6 +97,7 @@ export default function GradeDistributionLine() {
           y: {
             title: { display: true, text: "Anzahl" },
             beginAtZero: true,
+            ticks: { stepSize: 1 }
           },
         },
       },
